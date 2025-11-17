@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.login-box, .chat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+  width: 80%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.users ul {
+  padding-left: 20px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #fafafa;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 8px;
+}
+
+.typing {
+  font-style: italic;
+  color: gray;
+}
